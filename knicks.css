@@ -1,0 +1,28 @@
+/* Knicks blue and orange, with contrasting shades for text and dark mode. */
+:root{--knicks-blue:#006bb6;--knicks-orange:#f58426;--bg:#f5f7fa;--text:#172b42;--muted:#748296;--line:#e4eaf1;--green:var(--knicks-blue);--green-bg:#e7f2fb;--purple:#b75408;--sidebar:#082642}
+aside.sidebar{color:#f4f8fc;border-color:#284966}
+.brandmark,.brand-dot{color:var(--knicks-orange)}
+.league-label{color:#8da9c2}.league-switch{background:#103451;border-color:#284b6a;color:#f6f9fc}.league-switch small{color:#9db8ce}.league-icon{background:var(--knicks-blue)}
+nav button{color:#a9bed2}nav button.active{background:var(--knicks-orange);color:#142b43}nav button:hover:not(.active){background:#153d5e;color:#fff}
+.sidebar-bottom{color:#b1c5d7;border-color:#294967}.sidebar-bottom button{color:#b1c5d7}.sidebar-note{color:#8ba6bd}
+.connection-dot,.tiny-dot{background:var(--knicks-orange)}
+.primary{background:var(--knicks-blue);color:#fff}.primary:hover{background:#005896}
+.avatar{background:#fff0e3;border-color:#fff8f1;color:#9b4300}
+.data-notice{background:#fff4e9;border-color:#f3ddc8;color:#8a5b33}.data-notice b{color:#75441b}.notice-icon,.data-notice button{color:#a34c09}
+.team-badge.home{background:#deedfa;border-color:#eff6fc;color:#006bb6}.team-badge.away{background:#ffead8;border-color:#fff6ee;color:#a94a00}
+.big-score>span:last-of-type{color:#b75408}.big-score em{color:#b9c6d3}
+.stat-cell i{background:#f0f3f7}.stat-cell.win i{background:#e3f0fb}.stat-cell.away-win i{background:#fff0e3}.stat-cell.away-win b,.edge-number{color:#b75408}
+.insight{background:#eaf3fb;border-color:#d6e7f5}.insight h3{color:#123a60}.insight>p{color:#587693}.mini-label{color:#6e8aa4}.edge-stat>span{color:#6c86a0}.edge-stat strong{color:var(--knicks-blue)}.edge-stat small{color:#557895}.insight>button{color:#005d9f;border-color:#cfdfed}
+.radar-icon{background:#eaf3fb;color:var(--knicks-blue)}.radar-icon.purple{background:#fff0e3;color:#b75408}
+.player-avatar{background:#e6f0f9;color:#245e8e}.status.active{background:#eaf3fb;color:#0062a7}.status{background:#f0f3f7;color:#687b90}.watch.selected{color:#b75408}
+.pill{background:#f0f4f8;color:#667d93}.metric-icon{color:#8a9eb1}.metric-value small{color:#8496a8}.category-head{color:#74879b}.category-name small{color:#7b8fa3}th{background:#f7f9fc;color:#6d8195}tbody tr:hover{background:#f5f9fd}
+.search span{color:#70869b}.matchup-foot{color:#6e8296}footer{color:#8195a8}footer b{color:#5c7792}.toast{background:#006bb6}
+body.dark{--bg:#0c1929;--card:#13273d;--text:#edf4fc;--muted:#a2b5c9;--line:#2c435c;--green:#70baff;--green-bg:#1b4164;--purple:#ffad6b}
+body.dark .primary{background:#006bb6;color:#fff}body.dark .primary:hover{background:#087dcf}
+body.dark .insight{background:#153552;border-color:#294e70}body.dark .insight h3{color:#e2f0ff}body.dark .insight p{color:#b2cce2}body.dark .edge-stat strong{color:#79c1ff}body.dark .edge-stat small,body.dark .edge-stat>span,body.dark .mini-label{color:#a3bfd8}body.dark .insight>button{color:#a0d2ff;border-color:#305372}
+body.dark th{background:#182e47;color:#aec2d7}body.dark tbody tr:hover{background:#1a324c}body.dark .pill{background:#1c3650;color:#b3c9dd}
+body.dark .data-notice{background:#382b20;border-color:#61432b;color:#e6bc99}body.dark .data-notice b{color:#ffcca3}body.dark .data-notice button,body.dark .notice-icon{color:#ffb273}
+body.dark .stat-cell i{background:#253b52}body.dark .stat-cell.win i{background:#174a73}body.dark .stat-cell.away-win i{background:#60371d}body.dark .stat-cell b{color:#d3e2ef}body.dark .stat-cell.win b{color:#b5ddff}body.dark .stat-cell.away-win b{color:#ffd1ac}body.dark .edge-number,body.dark .big-score>span:last-of-type{color:#ffad6b}
+body.dark .team-badge.home{background:#17456c;border-color:#203a53;color:#a4d5ff}body.dark .team-badge.away{background:#5f371d;border-color:#3a302b;color:#ffc394}body.dark .category-name small{color:#98adc0}
+body.dark .player-avatar{background:#254461;color:#bbddfa}body.dark .status.active{background:#1c4366;color:#a2d4ff}body.dark .status{background:#2b3c50;color:#b0c0d1}body.dark .watch.selected{color:#ffad6b}body.dark .radar-icon{background:#244562;color:#92cdff}body.dark .radar-icon.purple{background:#513522;color:#ffbe8a}
+body.dark .edge-number.positive{color:var(--green)}
